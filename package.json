@@ -1,0 +1,32 @@
+{
+  "name": "papi",
+  "version": "0.0.1",
+  "description": "Adds Polaris ILS API functionality to Laravel",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blashbrook/PAPI.git"
+  },
+  "keywords": [
+    "Polaris",
+    "API",
+    "PAPI",
+    "Laravel",
+    "Library"
+  ],
+  "author": "Brian Lashbrook",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blashbrook/PAPI/issues"
+  },
+  "homepage": "https://github.com/blashbrook/PAPI#readme",
+  "dependencies": {
+    "@semantic-release/github": "^7.2.0"
+  }
+}
