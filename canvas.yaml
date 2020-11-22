@@ -1,0 +1,27 @@
+preset: package
+
+namespace: Blashbrook\Papi
+user-auth-provider: App\User
+
+paths:
+  src: src
+  resource: resources
+
+factory:
+  path: database/factories
+
+migration:
+  path: database/migrations
+  prefix: ''
+
+console:
+  namespace: Blashbrook\Papi\Console
+
+model:
+  namespace: Blashbrook\Papi
+
+provider:
+  namespace: Blashbrook\Papi\Providers
+
+testing:
+  namespace: Blashbrook\Papi\Tests
